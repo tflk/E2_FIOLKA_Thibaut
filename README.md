@@ -16,6 +16,15 @@ Run the server:
     python app.py
 
 
+## Use of the App
+
+To select all images in a folder :
+
+    press CTRL + A
+
+To return to the home page, click on the medical icon
+
+
 ## License
 
 The mighty MIT license. Please check `LICENSE` for more details.

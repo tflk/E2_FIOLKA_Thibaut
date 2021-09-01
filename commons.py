@@ -1,17 +1,14 @@
 
 import os
 import io
-
-import torchvision.transforms as transforms
 import torchvision as tv
-import torch
 from PIL import Image
 import onnx
 
 
 def get_model() :
     # Preprocessing: load the ONNX model
-    model_path = os.path.join('models', 'MedNet.onnx')
+    model_path = os.path.join('models', 'model_opti.onnx')
     model = onnx.load(model_path)
     # Check the model
     try:

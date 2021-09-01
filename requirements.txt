@@ -4,3 +4,5 @@ torchvision
 numpy
 Pillow
 gunicorn
+onnx
+onnxruntime
